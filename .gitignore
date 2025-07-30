@@ -1,0 +1,10 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Büyük rapor dosyaları (örnek)
+*.md
+
+# Geçici dosyalar
+*.log
+*.tmp
