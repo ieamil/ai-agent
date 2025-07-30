@@ -1,0 +1,375 @@
+# Gelişmiş SonarQube Kuralları
+# Gerçek SonarQube kurallarından derlenmiştir
+
+advanced_sonarqube_rules:
+  # Java Güvenlik Kuralları
+  security_rules:
+    # SQL Injection
+    java:S3649:
+      pattern: "(executeQuery|executeUpdate|prepareStatement).*\\+.*\\$"
+      severity: "HIGH"
+      category: "SQL Injection"
+      description: "SQL injection açığı tespit edildi"
+      recommendation: "PreparedStatement kullanın ve parametreleri güvenli şekilde bağlayın"
+      language: "java"
+      tags: ["sql", "injection", "security"]
+      message: "Use prepared statements instead of string concatenation"
+      fix_pattern: "(executeQuery|executeUpdate|prepareStatement)\\s*\\(\\s*([^)]+)\\s*\\+\\s*([^)]+)\\s*\\)"
+      fix_replacement: "PreparedStatement stmt = connection.prepareStatement(\\2);\\nstmt.setString(1, \\3);\\nstmt.executeQuery();"
+
+    # XSS
+    java:S5131:
+      pattern: "innerHTML|outerHTML|document\\.write.*\\+"
+      severity: "HIGH"
+      category: "Cross-Site Scripting"
+      description: "XSS açığı tespit edildi"
+      recommendation: "innerHTML yerine textContent kullanın, input'ları doğrulayın"
+      language: "java"
+      tags: ["xss", "security"]
+      message: "Avoid using innerHTML with user input"
+      fix_pattern: "innerHTML\\s*=\\s*([^;]+)"
+      fix_replacement: "textContent = \\1"
+
+    # Hardcoded Password
+    java:S2068:
+      pattern: "password\\s*=\\s*['\"][^'\"]+['\"]"
+      severity: "HIGH"
+      category: "Hardcoded Credentials"
+      description: "Hardcoded password tespit edildi"
+      recommendation: "Password'ü environment variable veya configuration dosyasından alın"
+      language: "java"
+      tags: ["password", "security"]
+      message: "Remove this hardcoded password"
+      fix_pattern: "password\\s*=\\s*['\"]([^'\"]+)['\"]"
+      fix_replacement: "password = System.getenv(\"DB_PASSWORD\")"
+
+    # Weak Encryption
+    java:S5542:
+      pattern: "MD5|SHA1|DES|RC4"
+      severity: "HIGH"
+      category: "Weak Cryptography"
+      description: "Zayıf şifreleme algoritması kullanılıyor"
+      recommendation: "SHA-256, AES gibi güçlü algoritmalar kullanın"
+      language: "java"
+      tags: ["crypto", "security"]
+      message: "Use a stronger encryption algorithm"
+      fix_pattern: "MD5"
+      fix_replacement: "SHA-256"
+
+    # Command Injection
+    java:S2076:
+      pattern: "Runtime\\.getRuntime\\(\\)\\.exec\\s*\\("
+      severity: "HIGH"
+      category: "Command Injection"
+      description: "Command injection riski tespit edildi"
+      recommendation: "Runtime.exec yerine ProcessBuilder kullanın ve input'ları doğrulayın"
+      language: "java"
+      tags: ["command", "injection", "security"]
+      message: "Make sure command injection is not possible here"
+      fix_pattern: "Runtime\\.getRuntime\\(\\)\\.exec\\s*\\(([^)]+)\\)"
+      fix_replacement: "ProcessBuilder pb = new ProcessBuilder(\\1.split(\" \"));\\npb.start();"
+
+    # Path Traversal
+    java:S5146:
+      pattern: "File\\(.*\\+.*\\.\\./"
+      severity: "HIGH"
+      category: "Path Traversal"
+      description: "Path traversal açığı tespit edildi"
+      recommendation: "Input'ları doğrulayın ve canonical path kullanın"
+      language: "java"
+      tags: ["path", "traversal", "security"]
+      message: "Validate the file path to prevent path traversal"
+      fix_pattern: "new File\\(([^)]+)\\)"
+      fix_replacement: "new File(new File(\\1).getCanonicalPath())"
+
+    # Insecure Random
+    java:S2245:
+      pattern: "new Random\\(\\)|Math\\.random\\(\\)"
+      severity: "MEDIUM"
+      category: "Insecure Random"
+      description: "Güvensiz random sayı üreteci kullanılıyor"
+      recommendation: "SecureRandom kullanın"
+      language: "java"
+      tags: ["random", "security"]
+      message: "Use a cryptographically strong random number generator"
+      fix_pattern: "new Random\\(\\)"
+      fix_replacement: "new SecureRandom()"
+
+    # Debug Code
+    java:S4507:
+      pattern: "System\\.out\\.println|System\\.err\\.println|printStackTrace"
+      severity: "MEDIUM"
+      category: "Debug Code"
+      description: "Debug kodu production'da kalmış"
+      recommendation: "Debug kodlarını kaldırın veya logger kullanın"
+      language: "java"
+      tags: ["debug", "logging"]
+      message: "Remove this debug code"
+      fix_pattern: "System\\.out\\.println\\(([^)]+)\\)"
+      fix_replacement: "logger.debug(\\1)"
+
+    # Insecure HTTP
+    java:S5332:
+      pattern: "http://"
+      severity: "MEDIUM"
+      category: "Insecure HTTP"
+      description: "HTTP kullanılıyor, HTTPS kullanın"
+      recommendation: "HTTPS kullanın"
+      language: "java"
+      tags: ["http", "security"]
+      message: "Use HTTPS instead of HTTP"
+      fix_pattern: "http://"
+      fix_replacement: "https://"
+
+    # Unsafe Deserialization
+    java:S5146:
+      pattern: "ObjectInputStream|readObject"
+      severity: "HIGH"
+      category: "Unsafe Deserialization"
+      description: "Güvensiz deserialization tespit edildi"
+      recommendation: "Custom deserialization veya JSON kullanın"
+      language: "java"
+      tags: ["serialization", "security"]
+      message: "Use a safe deserialization method"
+      fix_pattern: "new ObjectInputStream\\(([^)]+)\\)"
+      fix_replacement: "// Use JSON or custom deserialization instead"
+
+  # Java Kalite Kuralları
+  quality_rules:
+    # Long Method
+    java:S138:
+      pattern: "public\\s+\\w+\\s+\\w+\\s*\\([^)]*\\)\\s*\\{[^}]{200,}"
+      severity: "MEDIUM"
+      category: "Code Complexity"
+      description: "Çok uzun metod tespit edildi"
+      recommendation: "Metodu daha küçük parçalara bölün"
+      language: "java"
+      tags: ["complexity", "method"]
+      message: "Refactor this method to reduce its Cognitive Complexity"
+      fix_pattern: "public\\s+(\\w+)\\s+(\\w+)\\s*\\(([^)]*)\\)\\s*\\{"
+      fix_replacement: "public \\1 \\2(\\3) {\\n// TODO: Refactor this method into smaller methods"
+
+    # Long Class
+    java:S1448:
+      pattern: "class\\s+\\w+\\s*\\{[^}]{500,}"
+      severity: "MEDIUM"
+      category: "Code Complexity"
+      description: "Çok uzun sınıf tespit edildi"
+      recommendation: "Sınıfı daha küçük parçalara bölün"
+      language: "java"
+      tags: ["complexity", "class"]
+      message: "This class has too many methods"
+      fix_pattern: "class\\s+(\\w+)\\s*\\{"
+      fix_replacement: "class \\1 {\\n// TODO: Consider splitting this class"
+
+    # Magic Numbers
+    java:S109:
+      pattern: "\\b(0|1|2|3|4|5|6|7|8|9|10|100|1000|24|60|3600)\\b"
+      severity: "LOW"
+      category: "Code Smells"
+      description: "Magic number kullanılıyor"
+      recommendation: "Sabit değişken kullanın"
+      language: "java"
+      tags: ["magic", "number"]
+      message: "Define a constant instead of using this magic number"
+      fix_pattern: "\\b(\\d+)\\b"
+      fix_replacement: "CONSTANT_\\1"
+
+    # Unused Imports
+    java:S1128:
+      pattern: "import\\s+[^;]+;"
+      severity: "LOW"
+      category: "Code Smells"
+      description: "Kullanılmayan import tespit edildi"
+      recommendation: "Kullanılmayan import'ları kaldırın"
+      language: "java"
+      tags: ["import", "unused"]
+      message: "Remove this unused import"
+      fix_pattern: "import\\s+([^;]+);"
+      fix_replacement: "// Remove unused import: \\1"
+
+    # Naming Convention
+    java:S100:
+      pattern: "class\\s+([a-z][a-zA-Z0-9]*)\\s*\\{"
+      severity: "LOW"
+      category: "Naming Conventions"
+      description: "Sınıf adı PascalCase olmalı"
+      recommendation: "Sınıf adlarını PascalCase formatında yazın"
+      language: "java"
+      tags: ["naming", "convention"]
+      message: "Rename this class to follow the naming convention"
+      fix_pattern: "class\\s+([a-z])([a-zA-Z0-9]*)\\s*\\{"
+      fix_replacement: "class \\1\\2 {"
+
+    # Method Naming
+    java:S100:
+      pattern: "public\\s+\\w+\\s+([A-Z][a-zA-Z0-9]*)\\s*\\("
+      severity: "LOW"
+      category: "Naming Conventions"
+      description: "Metod adı camelCase olmalı"
+      recommendation: "Metod adlarını camelCase formatında yazın"
+      language: "java"
+      tags: ["naming", "convention"]
+      message: "Rename this method to follow the naming convention"
+      fix_pattern: "public\\s+\\w+\\s+([A-Z])([a-zA-Z0-9]*)\\s*\\("
+      fix_replacement: "public \\w+ \\1\\2("
+
+    # Resource Leak
+    java:S2095:
+      pattern: "new\\s+\\w+\\([^)]*\\)"
+      severity: "MEDIUM"
+      category: "Resource Management"
+      description: "Resource leak riski tespit edildi"
+      recommendation: "try-with-resources veya finally bloğu kullanın"
+      language: "java"
+      tags: ["resource", "leak"]
+      message: "Close this resource in a try-with-resources statement"
+      fix_pattern: "new\\s+(\\w+)\\(([^)]*)\\)"
+      fix_replacement: "try (\\1 resource = new \\1(\\2)) {"
+
+    # Duplicate Code
+    java:S4144:
+      pattern: "\\b\\w+\\s*\\{[^}]{50,}\\}"
+      severity: "MEDIUM"
+      category: "Code Duplication"
+      description: "Tekrarlanan kod tespit edildi"
+      recommendation: "Kodu metod veya sınıf olarak çıkarın"
+      language: "java"
+      tags: ["duplicate", "code"]
+      message: "Extract this duplicated code into a method"
+      fix_pattern: "\\b(\\w+)\\s*\\{([^}]{50,})\\}"
+      fix_replacement: "// TODO: Extract duplicated code into method"
+
+    # Too Many Parameters
+    java:S107:
+      pattern: "\\w+\\s+\\w+\\s*\\([^)]*,[^)]*,[^)]*,[^)]*,[^)]*,[^)]*,[^)]*"
+      severity: "MEDIUM"
+      category: "Code Smells"
+      description: "Çok fazla parametre tespit edildi"
+      recommendation: "Parametreleri DTO veya Builder pattern ile azaltın"
+      language: "java"
+      tags: ["parameters", "complexity"]
+      message: "Reduce the number of parameters"
+      fix_pattern: "\\w+\\s+\\w+\\s*\\(([^)]+)\\)"
+      fix_replacement: "// TODO: Use DTO or Builder pattern for parameters: \\1"
+
+    # Empty Catch Block
+    java:S1181:
+      pattern: "catch\\s*\\([^)]+\\)\\s*\\{\\s*\\}"
+      severity: "MEDIUM"
+      category: "Error Handling"
+      description: "Boş catch bloğu tespit edildi"
+      recommendation: "Exception'ı loglayın veya handle edin"
+      language: "java"
+      tags: ["exception", "handling"]
+      message: "Add logging or re-throw this exception"
+      fix_pattern: "catch\\s*\\(([^)]+)\\)\\s*\\{\\s*\\}"
+      fix_replacement: "catch (\\1) {\\nlogger.error(\"Exception occurred\", \\1);\\n}"
+
+  # Java Bug Kuralları
+  bug_rules:
+    # Null Pointer Exception
+    java:S2259:
+      pattern: "\\w+\\.\\w+\\s*\\([^)]*\\)"
+      severity: "HIGH"
+      category: "Null Pointer"
+      description: "Null pointer exception riski"
+      recommendation: "Null check ekleyin"
+      language: "java"
+      tags: ["null", "pointer"]
+      message: "Check for null before dereferencing"
+      fix_pattern: "(\\w+)\\.(\\w+)\\s*\\(([^)]*)\\)"
+      fix_replacement: "if (\\1 != null) {\\n\\1.\\2(\\3);\\n}"
+
+    # Array Index Out of Bounds
+    java:S2676:
+      pattern: "\\w+\\[\\w+\\]"
+      severity: "HIGH"
+      category: "Array Access"
+      description: "Array index out of bounds riski"
+      recommendation: "Array bounds check ekleyin"
+      language: "java"
+      tags: ["array", "index"]
+      message: "Check array bounds before accessing"
+      fix_pattern: "(\\w+)\\[(\\w+)\\]"
+      fix_replacement: "if (\\2 >= 0 && \\2 < \\1.length) {\\n\\1[\\2]\\n}"
+
+    # Division by Zero
+    java:S3518:
+      pattern: "/\\s*\\w+"
+      severity: "HIGH"
+      category: "Division by Zero"
+      description: "Division by zero riski"
+      recommendation: "Zero check ekleyin"
+      language: "java"
+      tags: ["division", "zero"]
+      message: "Check for division by zero"
+      fix_pattern: "([^/]+)\\s*\\/\\s*(\\w+)"
+      fix_replacement: "if (\\2 != 0) {\\n\\1 / \\2\\n}"
+
+  # Java Vulnerability Kuralları
+  vulnerability_rules:
+    # CWE-78: OS Command Injection
+    java:S2076:
+      pattern: "Runtime\\.getRuntime\\(\\)\\.exec"
+      severity: "HIGH"
+      category: "OS Command Injection"
+      description: "OS command injection açığı"
+      recommendation: "Runtime.exec yerine ProcessBuilder kullanın"
+      language: "java"
+      tags: ["cwe-78", "command", "injection"]
+      message: "Make sure command injection is not possible here"
+      fix_pattern: "Runtime\\.getRuntime\\(\\)\\.exec\\s*\\(([^)]+)\\)"
+      fix_replacement: "ProcessBuilder pb = new ProcessBuilder(\\1.split(\" \"));\\npb.start();"
+
+    # CWE-89: SQL Injection
+    java:S3649:
+      pattern: "(executeQuery|executeUpdate|prepareStatement).*\\+"
+      severity: "HIGH"
+      category: "SQL Injection"
+      description: "SQL injection açığı"
+      recommendation: "PreparedStatement kullanın"
+      language: "java"
+      tags: ["cwe-89", "sql", "injection"]
+      message: "Use prepared statements instead of string concatenation"
+      fix_pattern: "(executeQuery|executeUpdate|prepareStatement)\\s*\\(\\s*([^)]+)\\s*\\+\\s*([^)]+)\\s*\\)"
+      fix_replacement: "PreparedStatement stmt = connection.prepareStatement(\\2);\\nstmt.setString(1, \\3);\\nstmt.executeQuery();"
+
+    # CWE-79: XSS
+    java:S5131:
+      pattern: "innerHTML|outerHTML"
+      severity: "HIGH"
+      category: "Cross-Site Scripting"
+      description: "XSS açığı"
+      recommendation: "innerHTML yerine textContent kullanın"
+      language: "java"
+      tags: ["cwe-79", "xss"]
+      message: "Avoid using innerHTML with user input"
+      fix_pattern: "innerHTML\\s*=\\s*([^;]+)"
+      fix_replacement: "textContent = \\1"
+
+    # CWE-259: Hardcoded Password
+    java:S2068:
+      pattern: "password\\s*=\\s*['\"][^'\"]+['\"]"
+      severity: "HIGH"
+      category: "Hardcoded Credentials"
+      description: "Hardcoded password"
+      recommendation: "Environment variable kullanın"
+      language: "java"
+      tags: ["cwe-259", "password"]
+      message: "Remove this hardcoded password"
+      fix_pattern: "password\\s*=\\s*['\"]([^'\"]+)['\"]"
+      fix_replacement: "password = System.getenv(\"DB_PASSWORD\")"
+
+    # CWE-327: Weak Crypto
+    java:S5542:
+      pattern: "MD5|SHA1|DES"
+      severity: "HIGH"
+      category: "Weak Cryptography"
+      description: "Zayıf şifreleme"
+      recommendation: "Güçlü algoritma kullanın"
+      language: "java"
+      tags: ["cwe-327", "crypto"]
+      message: "Use a stronger encryption algorithm"
+      fix_pattern: "MD5"
+      fix_replacement: "SHA-256" 

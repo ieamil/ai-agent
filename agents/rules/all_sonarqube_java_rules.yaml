@@ -1,0 +1,6645 @@
+all_sonarqube_java_rules:
+  bugs: {}
+  code_smells:
+    NoSonar:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: NoSonar
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S100:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S100
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S101:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S101
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S103:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S103
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S104:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S104
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S105:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S105
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S106:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S106
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1065:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1065
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1066:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1066
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1067:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1067
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1068:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1068
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S107:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S107
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1075:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1075
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S108:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S108
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S109:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S109
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S110:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S110
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1104:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1104
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1105:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1105
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1106:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1106
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1107:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1107
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1108:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1108
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1109:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1109
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1110:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1110
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1111:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1111
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1113:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1113
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1114:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1114
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1116:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1116
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1117:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1117
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1118:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1118
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1119:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1119
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S112:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S112
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1120:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1120
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1121:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1121
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1123:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1123
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1124:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1124
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1125:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1125
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1126:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1126
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1128:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1128
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S113:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S113
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1130:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1130
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1132:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1132
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1133:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1133
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1134:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1134
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1135:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1135
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S114:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S114
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1141:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1141
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1142:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1142
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1143:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1143
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1144:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1144
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1147:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1147
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1149:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1149
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S115:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S115
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1150:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1150
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1151:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1151
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1153:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1153
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1155:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1155
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1157:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1157
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1158:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1158
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S116:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S116
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1160:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1160
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1161:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1161
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1162:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1162
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1163:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1163
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1165:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1165
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1166:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1166
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1168:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1168
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S117:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S117
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1170:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1170
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1171:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1171
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1172:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1172
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1174:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1174
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1175:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1175
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1176:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1176
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S118:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S118
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1181:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1181
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1182:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1182
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1185:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1185
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1186:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1186
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1188:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1188
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S119:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S119
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1190:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1190
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1191:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1191
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1192:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1192
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1193:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1193
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1194:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1194
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1195:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1195
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1197:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1197
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1199:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1199
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S120:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S120
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1200:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1200
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1201:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1201
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1206:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1206
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S121:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S121
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1210:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1210
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1213:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1213
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1214:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1214
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1215:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1215
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1217:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1217
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1219:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1219
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S122:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S122
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1220:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1220
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1221:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1221
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1223:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1223
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1226:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1226
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1228:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1228
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S124:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S124
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1244:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1244
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S125:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S125
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1258:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1258
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S126:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S126
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1264:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1264
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S127:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S127
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S128:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S128
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1301:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1301
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1309:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1309
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S131:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S131
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1310:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1310
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1312:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1312
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1313:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1313
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1314:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1314
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1315:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1315
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1317:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1317
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1319:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1319
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S134:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S134
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S135:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S135
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S138:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S138
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S139:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S139
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1444:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1444
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1448:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1448
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1449:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1449
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1450:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1450
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1451:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1451
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1452:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1452
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1479:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1479
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1481:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1481
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1488:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1488
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1541:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1541
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1596:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1596
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1598:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1598
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1602:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1602
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1604:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1604
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1607:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1607
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1610:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1610
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1611:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1611
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1612:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1612
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1640:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1640
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1641:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1641
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1643:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1643
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1656:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1656
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1659:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1659
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1694:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1694
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1695:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1695
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1696:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1696
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1698:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1698
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1699:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1699
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1700:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1700
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1710:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1710
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1711:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1711
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1751:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1751
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1764:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1764
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1774:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1774
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1820:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1820
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1821:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1821
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1844:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1844
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1845:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1845
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1849:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1849
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1854:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1854
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1858:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1858
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1860:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1860
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1862:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1862
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1871:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1871
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1872:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1872
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1874:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1874
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1905:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1905
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1939:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1939
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1940:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1940
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1941:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1941
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1942:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1942
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1943:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1943
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1948:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1948
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1989:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1989
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1994:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1994
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S1996:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S1996
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2039:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2039
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2047:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2047
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2053:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2053
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2055:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2055
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2057:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2057
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2059:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2059
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2060:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2060
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2061:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2061
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2062:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2062
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2063:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2063
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2065:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2065
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2066:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2066
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2068:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2068
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2077:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2077
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2092:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2092
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2093:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2093
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2094:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2094
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2096:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2096
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2097:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2097
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2109:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2109
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2110:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2110
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2111:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2111
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2112:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2112
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2114:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2114
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2115:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2115
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2116:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2116
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2118:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2118
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2119:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2119
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2121:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2121
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2122:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2122
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2123:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2123
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2127:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2127
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2129:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2129
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2130:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2130
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2131:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2131
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2133:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2133
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2134:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2134
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2139:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2139
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2140:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2140
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2141:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2141
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2142:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2142
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2143:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2143
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2147:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2147
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2148:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2148
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2151:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2151
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2153:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2153
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2154:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2154
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2156:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2156
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2157:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2157
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2159:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2159
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2160:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2160
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2162:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2162
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2164:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2164
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2165:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2165
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2166:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2166
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2167:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2167
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2168:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2168
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2175:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2175
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2176:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2176
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2177:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2177
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2178:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2178
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2183:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2183
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2184:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2184
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2185:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2185
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2186:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2186
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2187:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2187
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2188:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2188
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2196:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2196
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2197:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2197
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2200:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2200
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2201:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2201
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2203:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2203
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2204:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2204
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2208:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2208
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2209:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2209
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2211:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2211
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2221:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2221
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2225:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2225
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2226:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2226
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2229:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2229
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2230:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2230
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2232:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2232
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2234:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2234
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2235:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2235
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2236:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2236
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2245:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2245
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2250:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2250
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2251:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2251
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2252:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2252
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2253:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2253
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2254:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2254
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2260:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2260
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2272:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2272
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2273:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2273
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2274:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2274
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2275:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2275
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2276:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2276
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2293:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2293
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2301:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2301
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2308:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2308
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2309:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2309
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2325:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2325
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2326:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2326
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2333:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2333
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2384:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2384
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2386:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2386
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2387:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2387
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2388:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2388
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2390:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2390
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2437:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2437
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2438:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2438
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2440:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2440
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2441:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2441
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2442:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2442
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2444:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2444
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2445:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2445
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2446:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2446
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2447:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2447
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2479:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2479
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2612:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2612
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2629:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2629
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2638:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2638
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2639:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2639
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2647:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2647
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2658:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2658
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2674:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2674
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2675:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2675
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2676:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2676
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2677:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2677
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2681:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2681
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2692:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2692
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2693:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2693
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2694:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2694
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2695:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2695
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2696:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2696
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2698:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2698
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2699:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2699
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2701:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2701
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2718:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2718
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2737:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2737
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2757:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2757
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2761:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2761
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2786:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2786
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2789:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2789
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2864:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2864
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2885:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2885
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2886:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2886
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2924:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2924
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2925:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2925
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2959:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2959
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2970:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2970
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2972:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2972
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2973:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2973
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2974:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2974
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S2975:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S2975
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3008:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3008
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3010:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3010
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3011:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3011
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3012:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3012
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3014:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3014
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3020:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3020
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3024:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3024
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3030:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3030
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3032:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3032
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3033:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3033
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3034:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3034
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3038:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3038
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3039:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3039
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3042:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3042
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3046:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3046
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3047:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3047
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3052:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3052
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3063:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3063
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3064:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3064
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3066:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3066
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3067:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3067
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3077:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3077
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3078:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3078
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3242:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3242
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3252:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3252
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3254:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3254
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3305:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3305
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3306:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3306
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3329:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3329
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3330:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3330
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3346:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3346
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3358:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3358
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3366:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3366
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3398:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3398
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3400:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3400
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3414:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3414
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3415:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3415
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3416:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3416
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3436:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3436
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3437:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3437
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3457:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3457
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3551:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3551
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3553:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3553
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3577:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3577
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3578:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3578
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3599:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3599
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3626:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3626
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3631:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3631
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3658:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3658
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3688:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3688
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3725:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3725
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3740:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3740
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3749:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3749
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3750:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3750
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3751:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3751
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3752:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3752
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3753:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3753
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3776:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3776
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3864:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3864
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3878:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3878
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3923:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3923
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3937:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3937
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3972:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3972
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3973:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3973
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3981:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3981
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3984:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3984
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3985:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3985
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S3986:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S3986
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4011:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4011
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4030:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4030
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4032:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4032
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4034:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4034
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4036:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4036
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4042:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4042
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4065:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4065
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4087:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4087
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4143:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4143
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4144:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4144
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4174:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4174
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4201:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4201
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4248:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4248
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4266:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4266
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4274:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4274
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4275:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4275
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4276:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4276
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4288:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4288
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4347:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4347
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4348:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4348
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4349:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4349
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4351:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4351
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4423:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4423
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4425:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4425
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4426:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4426
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4434:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4434
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4454:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4454
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4488:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4488
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4512:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4512
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4517:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4517
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4524:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4524
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4544:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4544
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4551:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4551
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4602:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4602
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4604:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4604
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4605:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4605
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4635:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4635
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4682:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4682
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4684:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4684
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4719:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4719
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4738:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4738
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4790:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4790
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4792:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4792
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4830:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4830
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4838:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4838
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4925:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4925
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4926:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4926
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4929:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4929
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4968:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4968
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4970:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4970
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4973:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4973
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S4977:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S4977
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5042:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5042
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5122:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5122
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5128:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5128
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5164:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5164
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5194:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5194
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5247:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5247
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5261:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5261
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5301:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5301
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5320:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5320
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5322:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5322
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5324:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5324
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5329:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5329
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5332:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5332
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5344:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5344
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5361:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5361
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5411:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5411
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5413:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5413
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5443:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5443
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5445:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5445
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5527:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5527
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5542:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5542
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5547:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5547
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5612:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5612
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5659:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5659
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5663:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5663
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5664:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5664
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5665:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5665
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5669:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5669
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5679:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5679
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5689:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5689
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5693:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5693
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5738:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5738
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5776:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5776
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5777:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5777
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5778:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5778
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5779:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5779
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5783:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5783
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5785:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5785
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5786:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5786
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5790:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5790
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5793:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5793
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5803:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5803
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5804:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5804
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5808:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5808
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5810:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5810
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5826:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5826
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5831:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5831
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5833:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5833
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5838:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5838
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5841:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5841
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5842:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5842
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5843:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5843
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5845:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5845
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5846:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5846
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5850:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5850
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5852:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5852
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5853:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5853
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5854:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5854
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5855:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5855
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5856:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5856
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5857:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5857
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5860:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5860
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5863:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5863
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5866:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5866
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5867:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5867
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5868:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5868
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5869:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5869
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5876:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5876
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5917:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5917
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5958:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5958
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5960:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5960
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5961:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5961
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5967:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5967
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5969:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5969
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5970:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5970
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5973:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5973
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5976:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5976
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5977:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5977
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5979:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5979
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5993:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5993
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5994:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5994
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5996:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5996
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S5998:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S5998
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6001:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6001
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6002:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6002
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6019:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6019
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6035:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6035
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6068:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6068
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6070:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6070
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6073:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6073
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6103:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6103
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6104:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6104
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6126:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6126
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6201:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6201
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6202:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6202
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6203:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6203
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6204:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6204
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6205:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6205
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6206:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6206
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6207:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6207
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6208:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6208
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6209:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6209
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6211:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6211
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6212:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6212
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6213:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6213
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6216:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6216
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6217:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6217
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6218:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6218
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6219:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6219
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6288:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6288
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6291:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6291
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6293:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6293
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6300:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6300
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6301:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6301
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6326:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6326
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6331:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6331
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6353:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6353
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6355:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6355
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6362:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6362
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6363:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6363
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6395:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6395
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6396:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6396
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6397:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6397
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6411:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6411
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6418:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6418
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6432:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6432
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6485:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6485
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6539:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6539
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6541:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6541
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6548:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6548
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6665:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6665
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6804:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6804
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6806:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6806
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6809:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6809
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6810:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6810
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6813:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6813
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6814:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6814
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6816:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6816
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6817:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6817
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6818:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6818
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6829:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6829
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6830:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6830
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6831:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6831
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6832:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6832
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6833:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6833
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6837:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6837
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6838:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6838
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6856:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6856
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6857:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6857
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6862:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6862
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6863:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6863
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6876:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6876
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6877:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6877
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6878:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6878
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6880:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6880
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6881:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6881
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6885:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6885
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6889:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6889
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6891:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6891
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6898:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6898
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6901:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6901
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6904:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6904
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6905:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6905
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6906:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6906
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6909:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6909
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6912:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6912
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6913:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6913
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6914:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6914
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6915:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6915
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6916:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6916
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6923:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6923
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S6926:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S6926
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S7158:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S7158
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S7177:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S7177
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S7178:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S7178
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S7179:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S7179
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S7180:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S7180
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S7183:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S7183
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S7184:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S7184
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S7185:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S7185
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S7186:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S7186
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S7190:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S7190
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S7409:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S7409
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S7435:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S7435
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S7466:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S7466
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S7467:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S7467
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S7474:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S7474
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S7475:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S7475
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S7476:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S7476
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S7477:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S7477
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S7478:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S7478
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S7479:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S7479
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S7481:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S7481
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S7482:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S7482
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S7629:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S7629
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S818:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S818
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S864:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S864
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S881:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S881
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S888:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S888
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S899:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S899
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+    S923:
+      debt: 30min
+      description: ''
+      effort: 30min
+      language: java
+      name: S923
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: CODE_SMELL
+  security_hotspots:
+    S2257:
+      debt: 1h
+      description: ''
+      effort: 1h
+      language: java
+      name: S2257
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: SECURITY_HOTSPOT
+    S4433:
+      debt: 1h
+      description: ''
+      effort: 1h
+      language: java
+      name: S4433
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: SECURITY_HOTSPOT
+    S4502:
+      debt: 1h
+      description: ''
+      effort: 1h
+      language: java
+      name: S4502
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: SECURITY_HOTSPOT
+    S4507:
+      debt: 1h
+      description: ''
+      effort: 1h
+      language: java
+      name: S4507
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: SECURITY_HOTSPOT
+    S4601:
+      debt: 1h
+      description: ''
+      effort: 1h
+      language: java
+      name: S4601
+      pattern: .*
+      severity: MAJOR
+      tags: []
+      type: SECURITY_HOTSPOT
+  vulnerabilities: {}

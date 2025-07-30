@@ -1,0 +1,199 @@
+security_rules:
+  # SQL Injection
+  SQL_INJECTION:
+    pattern: "(executeQuery|executeUpdate|prepareStatement).*\\+.*\\$"
+    severity: HIGH
+    category: SQL Injection
+    description: SQL injection açığı tespit edildi
+    recommendation: PreparedStatement kullanın ve parametreleri güvenli şekilde bağlayın
+    fix_pattern: "(executeQuery|executeUpdate|prepareStatement)\\s*\\(\\s*([^)]+)\\s*\\+\\s*([^)]+)\\s*\\)"
+    fix_replacement: "PreparedStatement stmt = connection.prepareStatement(\\2);\\nstmt.setString(1, \\3);\\nstmt.executeQuery();"
+
+  # Cross-Site Scripting (XSS)
+  XSS:
+    pattern: "innerHTML|outerHTML|document\\.write.*\\+"
+    severity: HIGH
+    category: Cross-Site Scripting
+    description: XSS açığı tespit edildi
+    recommendation: innerHTML yerine textContent kullanın, input'ları doğrulayın
+    fix_pattern: "innerHTML\\s*=\\s*([^;]+)"
+    fix_replacement: "textContent = \\1"
+
+  # Hardcoded Credentials
+  HARDCODED_PASSWORD:
+    pattern: "password\\s*=\\s*['\"][^'\"]+['\"]"
+    severity: MEDIUM
+    category: Hardcoded Credentials
+    description: Hardcoded şifre tespit edildi
+    recommendation: Şifreleri environment variable veya secrets manager'da tutun
+    fix_pattern: "password\\s*=\\s*['\"]([^'\"]+)['\"]"
+    fix_replacement: "password = System.getenv(\"DB_PASSWORD\")"
+
+  HARDCODED_API_KEY:
+    pattern: "(api_key|apikey|secret_key)\\s*=\\s*['\"][^'\"]+['\"]"
+    severity: HIGH
+    category: Hardcoded Credentials
+    description: Hardcoded API anahtarı tespit edildi
+    recommendation: API anahtarlarını environment variable'da saklayın
+    fix_pattern: "(api_key|apikey|secret_key)\\s*=\\s*['\"]([^'\"]+)['\"]"
+    fix_replacement: "\\1 = System.getenv(\"API_KEY\")"
+
+  # Weak Cryptography
+  WEAK_ENCRYPTION:
+    pattern: "MD5|SHA1|DES\\("
+    severity: HIGH
+    category: Weak Cryptography
+    description: Zayıf şifreleme algoritması kullanılıyor
+    recommendation: SHA-256, bcrypt gibi güçlü algoritmalar kullanın
+    fix_pattern: "MD5\\("
+    fix_replacement: "SHA-256("
+
+  # Command Injection
+  COMMAND_INJECTION:
+    pattern: "(exec|system|eval)\\s*\\(.*\\+"
+    severity: HIGH
+    category: Command Injection
+    description: Komut injection açığı tespit edildi
+    recommendation: Güvenli API'ler kullanın, input'ları doğrulayın
+
+  # Path Traversal
+  PATH_TRAVERSAL:
+    pattern: "\\.\\./|\\\\\\.\\.\\\\"
+    severity: MEDIUM
+    category: Path Traversal
+    description: Path traversal açığı tespit edildi
+    recommendation: Dosya yollarını doğrulayın ve normalize edin
+
+  # Insecure Random
+  INSECURE_RANDOM:
+    pattern: "Math\\.random\\(\\)|Random\\(\\)"
+    severity: MEDIUM
+    category: Insecure Random
+    description: Güvensiz rastgele sayı üreteci kullanılıyor
+    recommendation: Crypto.getRandomValues() veya SecureRandom kullanın
+
+  # Debug Code
+  DEBUG_CODE:
+    pattern: "console\\.log|System\\.out\\.println|print\\("
+    severity: LOW
+    category: Debug Code
+    description: Debug kodu production'da bırakılmış
+    recommendation: Debug kodlarını kaldırın veya log seviyesini ayarlayın
+    fix_pattern: "(console\\.log|System\\.out\\.println|print\\()([^)]*)\\)"
+    fix_replacement: "// TODO: Debug kodu kaldırıldı\\n// logger.debug(\\2)"
+
+  # Insecure HTTP
+  INSECURE_HTTP:
+    pattern: "http://"
+    severity: MEDIUM
+    category: Insecure Communication
+    description: HTTP kullanılıyor (HTTPS olmalı)
+    recommendation: HTTPS kullanın
+    fix_pattern: "http://"
+    fix_replacement: "https://"
+
+quality_rules:
+  # Code Complexity
+  LONG_METHOD:
+    pattern: "def\\s+\\w+\\([^)]*\\):[\\s\\S]{500,}"
+    severity: MEDIUM
+    category: Code Complexity
+    description: Çok uzun metod tespit edildi
+    recommendation: Metodu daha küçük parçalara bölün
+    fix_pattern: "def\\s+(\\w+)\\s*\\([^)]*\\):([\\s\\S]{500,})"
+    fix_replacement: "def \\1(self):\\n    # TODO: Bu metodu daha küçük parçalara bölün\\n    pass"
+
+  LONG_CLASS:
+    pattern: "class\\s+\\w+[\\s\\S]{1000,}"
+    severity: MEDIUM
+    category: Code Complexity
+    description: Çok uzun sınıf tespit edildi
+    recommendation: Sınıfı daha küçük parçalara bölün
+
+  # Code Duplication
+  DUPLICATE_CODE:
+    pattern: "(\\w+\\s*\\([^)]*\\)\\s*\\{[\\s\\S]{10,}\\})\\1"
+    severity: MEDIUM
+    category: Code Duplication
+    description: Kod tekrarı tespit edildi
+    recommendation: Ortak kodu metod veya sınıf haline getirin
+
+  # Magic Numbers
+  MAGIC_NUMBER:
+    pattern: "\\b\\d{3,}\\b"
+    severity: LOW
+    category: Code Quality
+    description: Magic number tespit edildi
+    recommendation: Sabit değerleri named constant olarak tanımlayın
+
+  # Unused Imports
+  UNUSED_IMPORT:
+    pattern: "import\\s+\\w+(?:\\s+as\\s+\\w+)?(?!\\s*#\\s*used)"
+    severity: LOW
+    category: Code Quality
+    description: Kullanılmayan import tespit edildi
+    recommendation: Kullanılmayan import'ları kaldırın
+
+  # Naming Conventions
+  BAD_VARIABLE_NAME:
+    pattern: "\\b[a-z]\\w*\\s*="
+    severity: LOW
+    category: Naming Conventions
+    description: Değişken ismi camelCase olmalı
+    recommendation: Değişken isimlerini camelCase yapın
+
+  # Error Handling
+  MISSING_EXCEPTION_HANDLING:
+    pattern: "try\\s*\\{[\\s\\S]*\\}\\s*catch\\s*\\([^)]*\\)\\s*\\{[\\s\\S]*\\}"
+    severity: MEDIUM
+    category: Error Handling
+    description: Exception handling eksik
+    recommendation: Uygun exception handling ekleyin
+
+  # Performance
+  N_PLUS_1_QUERY:
+    pattern: "for\\s*\\([^)]*\\)\\s*\\{[\\s\\S]*\\w+\\.findById\\("
+    severity: MEDIUM
+    category: Performance
+    description: N+1 query problemi tespit edildi
+    recommendation: Eager loading veya batch query kullanın
+
+  # Memory Leaks
+  RESOURCE_LEAK:
+    pattern: "new\\s+\\w+\\([^)]*\\)(?!\\s*\\{)"
+    severity: MEDIUM
+    category: Memory Management
+    description: Resource leak riski tespit edildi
+    recommendation: try-with-resources veya finally bloğu kullanın
+
+  # Thread Safety
+  THREAD_UNSAFE:
+    pattern: "static\\s+\\w+\\s+\\w+\\s*="
+    severity: MEDIUM
+    category: Thread Safety
+    description: Thread-unsafe static değişken tespit edildi
+    recommendation: Thread-safe yapılar kullanın veya synchronized yapın
+
+  # Code Smells
+  GOD_CLASS:
+    pattern: "class\\s+\\w+\\s*\\{[\\s\\S]*\\w+\\s*\\w+\\s*\\([^)]*\\)[\\s\\S]*\\w+\\s*\\w+\\s*\\([^)]*\\)[\\s\\S]*\\w+\\s*\\w+\\s*\\([^)]*\\)"
+    severity: MEDIUM
+    category: Code Smells
+    description: God class tespit edildi
+    recommendation: Sınıfı daha küçük, odaklanmış sınıflara bölün
+
+  # Security Best Practices
+  UNSAFE_DESERIALIZATION:
+    pattern: "ObjectInputStream|pickle\\.loads"
+    severity: HIGH
+    category: Security Best Practices
+    description: Güvensiz deserialization tespit edildi
+    recommendation: Güvenli deserialization yöntemleri kullanın
+
+  # Input Validation
+  MISSING_INPUT_VALIDATION:
+    pattern: "request\\.getParameter|\\$_GET|\\$_POST"
+    severity: MEDIUM
+    category: Input Validation
+    description: Input validation eksik
+    recommendation: Tüm input'ları doğrulayın ve sanitize edin 
